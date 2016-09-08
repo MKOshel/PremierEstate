@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="portfolioCell" id="gTV-IL-0wX" customClass="PortfolioCell">
+            <rect key="frame" x="0.0" y="0.0" width="310" height="240"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="310" height="240"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eSf-tf-s2A">
+                        <rect key="frame" x="8" y="40" width="200" height="120"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gafencu Residence" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gxd-Po-0dk">
+                        <rect key="frame" x="8" y="8" width="160" height="21"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="16"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="More details" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="omN-1I-2rA">
+                        <rect key="frame" x="216" y="143" width="82" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.8389717726" green="0.55378652370000003" blue="0.27723733769999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zOr-C3-wC1">
+                        <rect key="frame" x="208" y="40" width="90" height="50"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Starting from  99,000 - Condominium" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ce4-yi-evP">
+                                <rect key="frame" x="5" y="4" width="90" height="46"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="10"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.83897177257923161" green="0.55378652368162706" blue="0.27723733767715392" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ce4-yi-evP" secondAttribute="trailing" constant="-5" id="DZj-sH-vGa"/>
+                            <constraint firstItem="ce4-yi-evP" firstAttribute="top" secondItem="zOr-C3-wC1" secondAttribute="top" constant="4" id="JdR-PU-jNQ"/>
+                            <constraint firstItem="ce4-yi-evP" firstAttribute="leading" secondItem="zOr-C3-wC1" secondAttribute="leading" constant="5" id="Ntz-8T-s0C"/>
+                            <constraint firstAttribute="bottom" secondItem="ce4-yi-evP" secondAttribute="bottom" id="TGu-Vn-rxU"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Located in one of the most exclusive areas in Bucharest" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aAS-05-9Tk">
+                        <rect key="frame" x="212" y="83" width="86" height="71"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="key_check.png" translatesAutoresizingMaskIntoConstraints="NO" id="3K6-qI-Uhz">
+                        <rect key="frame" x="0.0" y="187" width="24" height="25"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="key_check.png" translatesAutoresizingMaskIntoConstraints="NO" id="x4E-dn-II7">
+                        <rect key="frame" x="88" y="187" width="24" height="25"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mxw-No-oNj">
+                        <rect key="frame" x="24" y="172" width="61" height="60"/>
+                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="9"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xGU-i1-94M">
+                        <rect key="frame" x="110" y="172" width="76" height="60"/>
+                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="9"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Roz-3U-xBi">
+                        <rect key="frame" x="201" y="172" width="56" height="60"/>
+                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="9"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PHN-do-o07">
+                        <rect key="frame" x="271" y="172" width="45" height="60"/>
+                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="9"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="key_check.png" translatesAutoresizingMaskIntoConstraints="NO" id="I0Q-U0-Hb9">
+                        <rect key="frame" x="250" y="187" width="24" height="25"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="key_check.png" translatesAutoresizingMaskIntoConstraints="NO" id="gDK-qA-x0g">
+                        <rect key="frame" x="179" y="187" width="24" height="25"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="eSf-tf-s2A" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="16m-kj-WCX"/>
+                <constraint firstAttribute="trailing" secondItem="eSf-tf-s2A" secondAttribute="trailing" constant="102" id="1TS-r0-ahe"/>
+                <constraint firstItem="eSf-tf-s2A" firstAttribute="top" secondItem="Gxd-Po-0dk" secondAttribute="bottom" constant="11" id="2VN-1m-1GN"/>
+                <constraint firstItem="Gxd-Po-0dk" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="3p6-8C-i9y"/>
+                <constraint firstAttribute="bottom" secondItem="omN-1I-2rA" secondAttribute="bottom" constant="76" id="65z-FV-sZR"/>
+                <constraint firstItem="omN-1I-2rA" firstAttribute="leading" secondItem="eSf-tf-s2A" secondAttribute="trailing" constant="8" id="9p7-zT-Fvq"/>
+                <constraint firstItem="aAS-05-9Tk" firstAttribute="top" secondItem="zOr-C3-wC1" secondAttribute="bottom" constant="-7" id="AXN-pJ-VPU"/>
+                <constraint firstItem="zOr-C3-wC1" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="40" id="AoS-I8-mPA"/>
+                <constraint firstAttribute="trailing" secondItem="Gxd-Po-0dk" secondAttribute="trailing" constant="142" id="CSn-Kf-cJg"/>
+                <constraint firstItem="Gxd-Po-0dk" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="H6m-WA-V8q"/>
+                <constraint firstItem="omN-1I-2rA" firstAttribute="top" secondItem="aAS-05-9Tk" secondAttribute="bottom" constant="-11" id="IOH-VF-vXu"/>
+                <constraint firstAttribute="bottom" secondItem="aAS-05-9Tk" secondAttribute="bottom" constant="86" id="KWY-Bp-2DS"/>
+                <constraint firstAttribute="trailing" secondItem="zOr-C3-wC1" secondAttribute="trailing" constant="12" id="Rci-G3-JU9"/>
+                <constraint firstAttribute="bottom" secondItem="eSf-tf-s2A" secondAttribute="bottom" constant="80" id="Rvb-sr-17G"/>
+                <constraint firstAttribute="bottom" secondItem="zOr-C3-wC1" secondAttribute="bottom" constant="150" id="V4v-Jl-1vG"/>
+                <constraint firstItem="zOr-C3-wC1" firstAttribute="leading" secondItem="eSf-tf-s2A" secondAttribute="trailing" id="geY-xE-13u"/>
+                <constraint firstItem="eSf-tf-s2A" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="40" id="hur-T0-gjS"/>
+                <constraint firstItem="aAS-05-9Tk" firstAttribute="leading" secondItem="eSf-tf-s2A" secondAttribute="trailing" constant="4" id="irw-wJ-vN4"/>
+                <constraint firstAttribute="trailing" secondItem="aAS-05-9Tk" secondAttribute="trailing" constant="12" id="n08-nY-I9c"/>
+                <constraint firstAttribute="trailing" secondItem="omN-1I-2rA" secondAttribute="trailing" constant="12" id="t2y-ri-IKL"/>
+            </constraints>
+            <size key="customSize" width="288" height="162"/>
+            <connections>
+                <outlet property="imageV" destination="eSf-tf-s2A" id="36c-gU-aVw"/>
+                <outlet property="labelDescription" destination="aAS-05-9Tk" id="5M8-eo-GLx"/>
+                <outlet property="labelPrice" destination="ce4-yi-evP" id="PJm-p0-2md"/>
+                <outlet property="labelTitle" destination="Gxd-Po-0dk" id="JTz-aO-95k"/>
+                <outlet property="label_ft1" destination="Mxw-No-oNj" id="Hbx-aG-ZJY"/>
+                <outlet property="label_ft2" destination="xGU-i1-94M" id="Egn-dn-URj"/>
+                <outlet property="label_ft3" destination="Roz-3U-xBi" id="gsg-aP-VFz"/>
+                <outlet property="label_ft4" destination="PHN-do-o07" id="6HC-Em-N99"/>
+            </connections>
+            <point key="canvasLocation" x="80" y="144"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="key_check.png" width="24" height="24"/>
+    </resources>
+</document>
